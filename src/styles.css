@@ -1,0 +1,33 @@
+.form-input {
+    background: #8f3c68;
+    color: #f3b578;
+    border: 1px solid #f78376;
+    transition: background 0.3s, color 0.3s; /* Agregar transiciones para background y color */
+}
+
+.form-input:active {
+    background: #f3b578;
+    color: #8f3c68;
+}
+
+.form-input:focus {
+    background: #f0a75f; /* Cambia el color de fondo cuando el input está enfocado */
+    color: #75244f; /* Cambia el color del texto cuando el input está enfocado */
+}
+
+.form-input:-webkit-autofill {
+    background: #8f3c68 !important; /* Mantén el color de fondo original */
+    color: #f3b578 !important; /* Mantén el color de texto original */
+}
+
+.font-color {
+    color: #f3b578;   
+}
+
+.font-important-color {
+    color: #da4c66;
+}
+
+.modal-color {
+    background: #7661a8;
+}
