@@ -1,4 +1,4 @@
-export const elegirSolucionProblema = (sintoma: string): string => {
+export const elegirSolucionProblema = (sintoma) => {
     switch (sintoma) {
         case 'fiebre':
             return 'Puedes probar tomando paracetamol';
